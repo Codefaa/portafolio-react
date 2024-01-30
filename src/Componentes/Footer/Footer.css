@@ -1,0 +1,63 @@
+.fin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.contacto-enlaces {
+    display: flex;
+    gap: 30px;
+}
+
+.bi-linkedin,
+.bi-github,
+.bi-file-person-fill, 
+.bi-code-slash {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+.link::before {
+    content: attr(data-texto);
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: 5px;
+    background-color: var(--color-primario);
+    border-radius: .25rem;
+    border: 1px solid white;
+    font-weight: 400;
+    font-size: .8em;
+    padding: .25rem .5rem;
+    
+
+    transform: scale(0);
+    transform-origin: bottom left;
+
+    transition: .15s;
+}
+
+.link:hover::before {
+    transform: scale(1);
+    color: white;
+}
+
+.bi-linkedin:hover,
+.bi-github:hover,
+.bi-file-person-fill:hover, 
+.bi-code-slash:hover {
+    color: var(--color-terciario);
+}
+
+.fin p {
+    color: gray;
+    font-size: .8rem;
+}

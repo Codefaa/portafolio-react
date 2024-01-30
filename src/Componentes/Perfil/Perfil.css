@@ -1,0 +1,83 @@
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+    margin: auto;
+}
+
+.foto {
+    padding: .5rem;
+    background-color: #4d7be696;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.foto-perfil {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.perfil-datos {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 20px;
+    color: white;
+    height: 320px;
+}
+
+.manito {
+    animation-name: manito-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+    user-select: none;
+}
+
+.perfil-datos h1 {
+    font-size: 3.5rem;
+}
+
+.perfil-datos h2 {
+    color: var(--color-terciario);
+    font-size: 3rem;
+}
+
+.perfil-datos p {
+    font-size: 1.4rem;
+}
+
+.contacto-enlaces {
+    margin-top: 1rem;
+}
+
+@keyframes manito-animation {
+    0% {
+        transform: rotate( 0.0deg);
+    }
+    10% {
+        transform: rotate(14.0deg);
+    }
+    20% {
+        transform: rotate(-8.0deg);
+    }
+    30% {
+        transform: rotate(14.0deg);
+    }
+    40% {
+        transform: rotate(-4.0deg);
+    }
+    50% {
+        transform: rotate(10.0deg);
+    }
+    60% {
+        transform: rotate( 0.0deg);
+    }
+    100% {
+        transform: rotate( 0.0deg);
+    }
+}

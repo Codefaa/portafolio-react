@@ -1,0 +1,87 @@
+.proyecto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    margin: auto;
+}
+
+.proyecto h1 {
+    font-size: 3.5rem;
+}
+
+.proyecto p {
+    font-size: 1.4rem;
+}
+
+.proyecto-carta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.carta {
+    position: relative;
+}
+
+.carta-imagen {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.carta-enlace {
+    margin: 3rem;
+    margin-left: 15rem;
+}
+
+.bi-box-arrow-up-right {    
+    background-color: var(--color-primario);
+    color: white;
+    padding: .5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.carta-contenido {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(000, 000, 000, 0.800);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+    padding: 1rem;
+    
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s;
+}
+
+.carta:hover .carta-contenido {
+    opacity: 1;
+    visibility: visible;
+    border-radius: 8px;
+}
+
+.carta-titulo {
+    font-size: 1.5rem;
+}
+
+.carta-parrafo {
+    font-size: .8rem;
+}
+
+.carta-boton {
+    background-color: var(--color-primario);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: .5rem;
+}

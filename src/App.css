@@ -1,0 +1,68 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+  --color-primario: #222222;
+  --color-secundario: #1c1c1ca8;
+  --color-terciario: #4D7BE6;
+  --color-cuarto: #B52424;
+  --color-quinto:#E80000;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: var(--color-primario);
+
+}
+
+.etiqueta-abrir::before {
+  content: '<';
+  color: gray;
+  transition: 1s;
+}
+
+.etiqueta-abrir::after {
+  content: '>';
+  color: gray;
+  transition: 1s;
+}
+
+.etiqueta-cerrar {
+  text-align: end;
+  color: gray;
+  user-select: none;
+}
+
+.etiqueta-cerrar::before {
+  content: '</';
+  color: gray;
+  transition: 1s;
+}
+
+.etiqueta-cerrar::after {
+  content: '>';
+  color: gray;
+  transition: 1s;
+}
+
+
+.etiqueta-abrir:hover::before {
+  margin-right: 10px;
+}
+
+.etiqueta-abrir:hover::after {
+  margin-left: 10px;
+}
+
+.ancho {
+  width: 950px;
+}
+
+a {
+  color: var(--color-terciario);
+}

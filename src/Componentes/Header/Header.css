@@ -1,0 +1,61 @@
+.header {
+    background-color: var(--color-secundario);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.header-nav a:hover {
+    color: var(--color-terciario);
+}
+
+.header-etiqueta::before {
+    content: '<';
+    color: gray;
+    transition: .3s;
+}
+  
+.header-etiqueta::after {
+    content: '/>';
+    color: gray;
+    transition: .3s;
+}
+  
+.header-etiqueta:hover::before {
+    margin-right: 10px;
+    color: white;
+}
+  
+.header-etiqueta:hover::after {
+    margin-left: 10px;
+    color: white;
+}
+
+
+.header-idiomafondo {
+    display: flex;
+    gap: 15px;
+}
+
+.bi-translate,
+.bi-moon-stars-fill {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

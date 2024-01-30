@@ -1,0 +1,43 @@
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+    color: white;
+    height: 100vh;
+}
+
+.sobre-mi h1 {
+    font-size: 3.5rem;
+}
+
+.sobre-mi p {
+    font-size: 1.4rem;
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.habilidades-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #0606066b;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.habilidades-imagen {
+    width: 45px;
+    height: 45px; 
+}
+
+.habilidades-titulo {
+    font-size: 1rem;
+    user-select: none;
+}

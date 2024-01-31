@@ -18,7 +18,7 @@
 .header-nav a {
     text-decoration: none;
     font-size: 1.4rem;
-    color: white;
+    color: var(--color-cuarto);
 }
 
 .header-nav a:hover {
@@ -39,12 +39,12 @@
   
 .header-etiqueta:hover::before {
     margin-right: 10px;
-    color: white;
+    color: var(--color-cuarto);
 }
   
 .header-etiqueta:hover::after {
     margin-left: 10px;
-    color: white;
+    color: var(--color-cuarto);
 }
 
 
@@ -54,8 +54,15 @@
 }
 
 .bi-translate,
-.bi-moon-stars-fill {
-    color: white;
+.bi-moon-stars-fill,
+.bi-sun-fill {
+    color: var(--color-cuarto);
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+.bi-translate:hover, 
+.bi-moon-stars-fill:hover
+.bi-sun-fill:hover {
+    color: var(--color-terciario);
 }

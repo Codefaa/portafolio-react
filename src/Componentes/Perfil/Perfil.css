@@ -9,7 +9,7 @@
 
 .foto {
     padding: .5rem;
-    background-color: #4d7be696;
+    background-color: var(--color-terciario);
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
@@ -25,7 +25,7 @@
     flex-direction: column;
     justify-content:space-around;
     gap: 20px;
-    color: white;
+    color: var(--color-cuarto);
     height: 320px;
 }
 

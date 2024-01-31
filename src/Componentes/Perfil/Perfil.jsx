@@ -1,7 +1,10 @@
 import './Perfil.css'
 import perfil from '../Imagenes/perfil.jpg'
+import { useTranslation } from 'react-i18next';
 
 function Perfil( {id} ) {
+
+    const { t } = useTranslation();
 
     return(
         <section id={id} className='ancho perfil'>
@@ -9,13 +12,13 @@ function Perfil( {id} ) {
                 <img className='foto-perfil' src={perfil} alt="perfil" />
             </div>
             <div className='perfil-datos'>
-                <h1>Soy Facundo Garcia <span className='manito'>👋</span></h1>
-                <h2>Ingeniero en Sistemas</h2>
-                <p>Nacido en <small>🇦🇷</small> Argentina y viviendo en Buenos Aires, en busca de nuevos desafíos y experiencias.</p>
+                <h1 className='perfil-nombre'>{t("perfil.nombre")} <span className='manito'>👋</span></h1>
+                <h2 className='perfil-carrera'>{t("perfil.carrera")}</h2>
+                <p className='perfil-descripcion'>{t("perfil.descripcion")}</p>
                 <div className='contacto-enlaces'>
-                    <a className='link' href="https://www.linkedin.com/in/facundo-garcia-312b73297/" target='_blank' data-texto="LinkedIn"><i className="bi bi-linkedin"></i></a>
-                    <a className='link' href="https://github.com/Codefaa" target='_blank' data-texto="GitHub"><i className="bi bi-github"></i></a>
-                    <a className='link' href="https://drive.google.com/file/d/1Q-__h3wF8XzF1fcFg8mXic1jkZCEvu9r/view?usp=drive_link" target='_blank' data-texto="CV"><i className="bi bi-file-person-fill"></i></a>
+                    <a className='link' href="https://www.linkedin.com/in/facundo-garcia-312b73297/" target='_blank' rel="noopener noreferrer" data-texto="LinkedIn"><i className="bi bi-linkedin"></i></a>
+                    <a className='link' href="https://github.com/Codefaa" target='_blank' rel="noopener noreferrer" data-texto="GitHub"><i className="bi bi-github"></i></a>
+                    <a className='link' href="https://drive.google.com/file/d/1Q-__h3wF8XzF1fcFg8mXic1jkZCEvu9r/view?usp=drive_link" target='_blank' rel="noopener noreferrer" data-texto="CV"><i className="bi bi-file-person-fill"></i></a>
                 </div>
             </div>
         </section>

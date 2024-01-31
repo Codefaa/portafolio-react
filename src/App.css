@@ -2,10 +2,9 @@
 
 :root {
   --color-primario: #222222;
-  --color-secundario: #1c1c1ca8;
+  --color-secundario: #1c1c1cA8;
   --color-terciario: #4D7BE6;
-  --color-cuarto: #B52424;
-  --color-quinto:#E80000;
+  --color-cuarto: #FFFFFF;
 }
 
 *, *::after, *::before {
@@ -66,3 +65,4 @@ body {
 a {
   color: var(--color-terciario);
 }
+

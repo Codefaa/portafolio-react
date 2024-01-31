@@ -1,3 +1,4 @@
+
 import './App.css';
 import Contacto from './Componentes/Contacto/Contacto';
 import Footer from './Componentes/Footer/Footer';
@@ -7,6 +8,8 @@ import Proyecto from './Componentes/Proyectos/Proyecto';
 import SobreMi from './Componentes/SobreMi/SobreMi';
 
 function App() {
+
+
   return (
     <div className="App">
 

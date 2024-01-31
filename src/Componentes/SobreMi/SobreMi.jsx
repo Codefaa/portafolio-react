@@ -8,15 +8,18 @@ import sass from '../Imagenes/sass.png'
 import csharp from '../Imagenes/csharp.png'
 import python from '../Imagenes/python.png'
 import sql from '../Imagenes/sql.png'
+import { useTranslation } from 'react-i18next'
 
 
 function SobreMi( {id} ) {
 
+    const { t } = useTranslation();
+
     return(
         <section id={id} className='ancho sobre-mi'>
-            <h1 className='etiqueta-abrir'>sobre mi</h1>
-            <p>Estudiante de Ingeniería en Sistemas con título intermedio en Analista en Sistemas.También estoy haciendo cursos autodidactas para convertirme en desarrollador web.</p>
-            <p>Mi viaje en la informática comenzó en la universidad, donde exploré C, C#, y Python, junto con SQL Server para proyectos de base de datos. En FreeCodeCamp, obtuve certificados en desarrollo web, abarcando HTML, CSS, JavaScript, React y mas...</p>
+            <h1 className='etiqueta-abrir'>{t("header.sobremi")}</h1>
+            <p>{t("sobremi.sobremiparrafo1")}</p>
+            <p>{t("sobremi.sobremiparrafo2")}</p>
             <div className='habilidades'>
                 <div className="habilidades-card">
                     <img className='habilidades-imagen' src={html} alt="html" />
@@ -55,7 +58,7 @@ function SobreMi( {id} ) {
                     <h3 className='habilidades-titulo'>SQL Server</h3>
                 </div>
             </div>
-            <p className='etiqueta-cerrar'>sobre mi</p>
+            <p className='etiqueta-cerrar'>{t("header.sobremi")}</p>
         </section>
     )
 }

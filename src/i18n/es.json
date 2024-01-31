@@ -1,0 +1,41 @@
+{
+    "header": {
+        "inicio": "inicio",
+        "sobremi": "sobre mi",
+        "proyecto": "proyecto",
+        "contacto": "contacto"
+    },
+
+    "perfil": {
+        "nombre": "Soy Facundo Garcia",
+        "carrera": "Ingeniero en Sistemas",
+        "descripcion": "Nacido en 🇦🇷 Argentina y viviendo en Buenos Aires, en busca de nuevos desafíos y experiencias."
+    },
+
+    "sobremi": {
+        "sobremiparrafo1": "Estudiante de Ingeniería en Sistemas con título intermedio en Analista en Sistemas.También estoy haciendo cursos autodidactas para convertirme en desarrollador web.",
+        "sobremiparrafo2": "Mi viaje en la informática comenzó en la universidad, donde exploré C, C#, y Python, junto con SQL Server para proyectos de base de datos. En FreeCodeCamp, obtuve certificados en desarrollo web, abarcando HTML, CSS, JavaScript, React y mas..."
+    },
+
+    "proyecto": {
+        "frase": "Si puedes imaginarlo, puedes programarlo.",
+        "coffee": "Coffee",
+        "descripcioncoffe": "Descripcion de la aplicacion Coffee",
+        "quote": "Quote",
+        "descripcionquote": "Descripcion de la aplicacion Quote",
+        "markdown": "Markdown",
+        "descripcionmarkdown": "Descripcion de la aplicacion Markdown",
+        "drummachine": "Drum Machine",
+        "descripciondrummachine": "Descripcion de la aplicacion Drum Machine",
+        "calculator": "Calculator",
+        "descripcioncalculator": "Descripcion de la aplicacion Calculator",
+        "clock": "Clock",
+        "descripcionclock": "Descripcion de la aplicacion Clock",
+        "vermas": "Ver mas..."
+    },
+
+    "contacto": {
+        "contactoparrafo1": "Mi bandeja de entrada está siempre abierta para consultas, proyectos o si simplemente querés pasar a saludar. ¡Te responderé lo antes posible!",
+        "contactoparrafo2": "Podes escribirme en: "
+    }
+}

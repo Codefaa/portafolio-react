@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 30px;
     margin: auto;
-    color: white;
+    color: var(--color-cuarto);
     height: 100vh;
 }
 

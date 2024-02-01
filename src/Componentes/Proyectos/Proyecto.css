@@ -87,18 +87,31 @@
     padding: .5rem;
 }
 
+@media screen and (width <= 950px) {
+
+    .carta-enlace {
+        margin: -1rem;
+        margin-left: 10rem;
+    }
+}
+
 @media screen and (width <= 768px) { 
     
     .proyecto-carta {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
+
+    .carta-enlace {
+        margin: 4rem;
+        margin-left: 16rem;
+    }
 }
 
 @media screen and (width <= 680px) {
    
     .carta-enlace {
-        margin: 2rem;
+        margin: 1rem;
         margin-left: 13rem;
     }
 }

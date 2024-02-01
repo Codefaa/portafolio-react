@@ -71,14 +71,14 @@
 }
 
 
-@media screen and (width >= 768px) {
+@media screen and (width >= 950px) {
 
     .header-menu {
         display: none;
     }
 }
 
-@media screen and (width <= 768px) {
+@media screen and (width <= 950px) {
 
     .header-nav {
         display: none;

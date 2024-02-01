@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    height: 100vh;
+    height: 1000px;
     margin: auto;
 }
 
@@ -81,3 +81,31 @@
         transform: rotate( 0.0deg);
     }
 }
+
+
+@media screen and (width <= 680px) {
+    
+    .perfil-datos h1{
+        font-size: 3rem;
+    }
+
+    .perfil-datos h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (width <= 600px) {
+
+    .perfil-datos h1{
+        font-size: 2.2rem;
+    }
+
+    .perfil-datos h2 {
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (width <= 480px) {
+
+
+  }

@@ -5,6 +5,7 @@
   --color-secundario: #1c1c1cA8;
   --color-terciario: #4D7BE6;
   --color-cuarto: #FFFFFF;
+  --color-quinto: #1c1c1c;
 }
 
 *, *::after, *::before {
@@ -66,3 +67,42 @@ a {
   color: var(--color-terciario);
 }
 
+@media screen and (width <= 950px) {
+  
+  .perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ancho {
+    width: 700px;
+  }
+}
+
+@media screen and (width <= 768px) {
+
+  .ancho {
+    width: 650px;
+  }
+}
+
+@media screen and (width <= 680px) {
+  
+  .ancho {
+    width: 550px;
+  }
+}
+
+@media screen and (width <= 600px) {
+
+  .ancho {
+    width: 400px;
+  }
+
+  .habilidades {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}

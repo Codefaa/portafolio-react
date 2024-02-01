@@ -1,0 +1,15 @@
+
+
+.bi-list,
+.bi-x-circle {
+    color: var(--color-cuarto);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.bi-list:hover,
+.bi-x-circle:hover {
+    color: var(--color-terciario);
+}
+
+

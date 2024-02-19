@@ -14,7 +14,7 @@ function Proyecto( {id} ) {
     return(
         <section id={id} className='ancho proyecto'>
             <h1 className='etiqueta-abrir'>{t("header.proyecto")}</h1>
-            <p>{t("proyecto.frase")}</p>
+            <p className='proyecto-parrafo-frase'>{t("proyecto.frase")}</p>
             <div className="proyecto-carta">
                 <div className="carta">
                     <img className='carta-imagen' src={coffee} alt="coffee" />

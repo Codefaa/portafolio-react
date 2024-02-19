@@ -15,7 +15,7 @@
 }
 
 .foto-perfil {
-    width: 250px;
+    width: 220px;
     height: 300px;
     border-radius: 10px;
 }
@@ -97,10 +97,14 @@
 @media screen and (width <= 600px) {
 
     .perfil-datos h1{
-        font-size: 2.2rem;
+        font-size: 1.9rem;
     }
 
     .perfil-datos h2 {
-        font-size: 1.9rem;
+        font-size: 1.7rem;
+    }
+
+    .perfil-datos p {
+        font-size: 1.2rem;
     }
 }

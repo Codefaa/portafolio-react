@@ -3,10 +3,10 @@ import html from '../Imagenes/html.png'
 import css from '../Imagenes/css.png'
 import js from '../Imagenes/js.png'
 import react from '../Imagenes/react.png'
-import bootstrap from '../Imagenes/bootstrap.png'
-import sass from '../Imagenes/sass.png'
+import nodejs from '../Imagenes/nodejs.png'
+import express from '../Imagenes/express.png'
 import csharp from '../Imagenes/csharp.png'
-import python from '../Imagenes/python.png'
+import mongodb from '../Imagenes/mongodb.png'
 import sql from '../Imagenes/sql.png'
 import { useTranslation } from 'react-i18next'
 
@@ -18,8 +18,8 @@ function SobreMi( {id} ) {
     return(
         <section id={id} className='ancho sobre-mi'>
             <h1 className='etiqueta-abrir'>{t("header.sobremi")}</h1>
-            <p>{t("sobremi.sobremiparrafo1")}</p>
-            <p>{t("sobremi.sobremiparrafo2")}</p>
+            <p className='sobremi-parrafo'>{t("sobremi.sobremiparrafo1")}</p>
+            <p className='sobremi-parrafo'>{t("sobremi.sobremiparrafo2")}</p>
             <div className='habilidades'>
                 <div className="habilidades-card">
                     <img className='habilidades-imagen' src={html} alt="html" />
@@ -38,20 +38,20 @@ function SobreMi( {id} ) {
                     <h3 className='habilidades-titulo'>React</h3>
                 </div>
                 <div className="habilidades-card">
-                    <img className='habilidades-imagen' src={bootstrap} alt="bootstrap" />
-                    <h3 className='habilidades-titulo'>Bootstrap</h3>
+                    <img className='habilidades-imagen' src={nodejs} alt="bootstrap" />
+                    <h3 className='habilidades-titulo'>Node.js</h3>
                 </div>
                 <div className="habilidades-card">
-                    <img className='habilidades-imagen' src={sass} alt="sass" />
-                    <h3 className='habilidades-titulo'>Sass</h3>
+                    <img className='habilidades-imagen' src={express} alt="sass" />
+                    <h3 className='habilidades-titulo'>Express</h3>
                 </div>
                 <div className="habilidades-card">
                     <img className='habilidades-imagen' src={csharp} alt="csharp" />
                     <h3 className='habilidades-titulo'>C#</h3>
                 </div>
                 <div className="habilidades-card">
-                    <img className='habilidades-imagen' src={python} alt="python" />
-                    <h3 className='habilidades-titulo'>Python</h3>
+                    <img className='habilidades-imagen' src={mongodb} alt="python" />
+                    <h3 className='habilidades-titulo'>MongoDB</h3>
                 </div>
                 <div className="habilidades-card">
                     <img className='habilidades-imagen' src={sql} alt="sql" />

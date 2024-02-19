@@ -18,3 +18,11 @@ p{
 .email {
     color: var(--color-terciario);
 }
+
+
+@media screen and (width <= 600px) {
+    
+    .contacto-parrafo {
+        font-size: 1.2rem;
+    }
+}

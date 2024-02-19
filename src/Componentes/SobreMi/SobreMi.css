@@ -10,9 +10,6 @@
     font-size: 3.5rem;
 }
 
-.sobre-mi p {
-    font-size: 1.4rem;
-}
 
 .habilidades {
     display: grid;
@@ -51,5 +48,9 @@
 
     .habilidades-card:last-child {
         grid-column: span 2;
+    }
+
+    .sobremi-parrafo {
+        font-size: 1.2rem;
     }
   }

@@ -11,10 +11,6 @@
     font-size: 3.5rem;
 }
 
-.proyecto p {
-    font-size: 1.4rem;
-}
-
 .proyecto-carta {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -126,5 +122,9 @@
     .carta-enlace {
         margin: 7rem;
         margin-left: 21rem;
+    }
+
+    .proyecto-parrafo-frase {
+        font-size: 1.2rem;
     }
 }

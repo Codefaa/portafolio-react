@@ -42,7 +42,7 @@ function Proyecto( {id} ) {
                 <div className="carta">
                     <img className='carta-imagen' src={commerceMern} alt="ecommerceMern" />
                     <div className="carta-contenido">
-                        <a className='carta-enlace' href="https://github.com/Codefaa/e-commerce-mern" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
+                        <a className='carta-enlace' href="https://frontend-mern-e-commerce.onrender.com" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
                         <h3 className='carta-titulo'>{t("proyecto.ecommerceMern")}</h3>
                         <h5 className='carta-parrafo'>{t("proyecto.descripcionecommerceMern")}</h5>
                         <div className='carta-tecnologias'>
@@ -56,7 +56,7 @@ function Proyecto( {id} ) {
                 <div className="carta">
                     <img className='carta-imagen' src={peliculas} alt="peliculas" />
                     <div className="carta-contenido">
-                        <a className='carta-enlace' href="https://github.com/Codefaa/peliculas-mern" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
+                        <a className='carta-enlace' href="https://frontend-mern-us62.onrender.com" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
                         <h3 className='carta-titulo'>{t("proyecto.peliculas")}</h3>
                         <h5 className='carta-parrafo'>{t("proyecto.descripcionpeliculas")}</h5>
                         <div className='carta-tecnologias'>

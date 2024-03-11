@@ -110,7 +110,7 @@
     }
 }
 
-@media screen and (width <= 600px) {
+@media (max-width: 767px)  {
 
     .proyecto-carta {
         grid-template-columns: repeat(1, 1fr);
@@ -118,7 +118,7 @@
     }
 
     .carta-enlace {
-        margin: 5rem;
+        margin: 3.2rem;
         margin-left: 18rem;
     }
 

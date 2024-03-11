@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio-react/static/css/main.a79fc997.css",
-    "main.js": "/portafolio-react/static/js/main.ee163ba0.js",
+    "main.css": "/portafolio-react/static/css/main.d76524a6.css",
+    "main.js": "/portafolio-react/static/js/main.842a8845.js",
     "static/media/peliculas-app.png": "/portafolio-react/static/media/peliculas-app.4cb1f2d8d36cda3ec2e5.png",
     "static/media/e-commerce.png": "/portafolio-react/static/media/e-commerce.4e21fbddd06bbeec5e6d.png",
     "static/media/e-commerce-mern.png": "/portafolio-react/static/media/e-commerce-mern.4ad94f4098a7e31ef4b0.png",
@@ -15,11 +15,11 @@
     "static/media/html.png": "/portafolio-react/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/js.png": "/portafolio-react/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portafolio-react/index.html",
-    "main.a79fc997.css.map": "/portafolio-react/static/css/main.a79fc997.css.map",
-    "main.ee163ba0.js.map": "/portafolio-react/static/js/main.ee163ba0.js.map"
+    "main.d76524a6.css.map": "/portafolio-react/static/css/main.d76524a6.css.map",
+    "main.842a8845.js.map": "/portafolio-react/static/js/main.842a8845.js.map"
   },
   "entrypoints": [
-    "static/css/main.a79fc997.css",
-    "static/js/main.ee163ba0.js"
+    "static/css/main.d76524a6.css",
+    "static/js/main.842a8845.js"
   ]
 }

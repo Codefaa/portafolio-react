@@ -71,36 +71,23 @@ a {
   color: var(--color-terciario);
 }
 
-@media screen and (width <= 950px) {
-
+@media (min-width:768px) and (max-width:1023px) {
+  
   .ancho {
     width: 700px;
   }
-  
 }
 
-@media screen and (width <= 768px) {
-
-  .ancho {
-    width: 650px;
-  }
-}
-
-@media screen and (width <= 680px) {
+@media (max-width:767px) {
   
   .ancho {
     width: 550px;
   }
 }
 
-@media screen and (width <= 600px) {
+@media (width <= 600px) {
 
   .ancho {
     width: 350px;
-  }
-
-  .habilidades {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
   }
 }

@@ -1,20 +1,20 @@
-.perfil {
+.perfil-seccion {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     height: 1000px;
     margin: auto;
-}
+} 
 
-.foto {
+.perfil-figure {
     padding: .5rem;
     background-color: var(--color-terciario);
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
-.foto-perfil {
+.perfil-foto {
     width: 220px;
     height: 300px;
     border-radius: 10px;
@@ -38,16 +38,16 @@
     user-select: none;
 }
 
-.perfil-datos h1 {
+.perfil-nombre {
     font-size: 3.5rem;
 }
 
-.perfil-datos h2 {
+.perfil-carrera {
     color: var(--color-terciario);
     font-size: 3rem;
 }
 
-.perfil-datos p {
+.perfil-descripcion {
     font-size: 1.4rem;
 }
 
@@ -82,29 +82,44 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
 
-@media screen and (width <= 680px) {
-    
-    .perfil-datos h1{
+    .perfil-seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .perfil-nombre {
         font-size: 3rem;
     }
 
-    .perfil-datos h2 {
+    .perfil-carrera {
         font-size: 2.5rem;
     }
+
 }
 
-@media screen and (width <= 600px) {
+@media (max-width: 767px) {
+    
+    .perfil-seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-    .perfil-datos h1{
+    .perfil-nombre{
         font-size: 1.9rem;
     }
 
-    .perfil-datos h2 {
+    .perfil-carrera {
         font-size: 1.7rem;
     }
 
-    .perfil-datos p {
+    .perfil-descripcion {
         font-size: 1.2rem;
     }
 }
+

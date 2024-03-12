@@ -1,10 +1,10 @@
 import './Proyecto.css'
-import coffee from '../Imagenes/coffee.png'
-import commerce  from '../Imagenes/e-commerce.png'
-import commerceMern from '../Imagenes/e-commerce-mern.png'
-import peliculas from '../Imagenes/peliculas-app.png'
-import markdown from '../Imagenes/markdown.png'
-import clock from '../Imagenes/clock.png'
+import coffee from '../../Imagenes/coffee.png'
+import commerce  from '../../Imagenes/e-commerce.png'
+import commerceMern from '../../Imagenes/e-commerce-mern.png'
+import peliculas from '../../Imagenes/peliculas-app.png'
+import markdown from '../../Imagenes/markdown.png'
+import clock from '../../Imagenes/clock.png'
 import { useTranslation } from 'react-i18next'
 
 function Proyecto( {id} ) {
@@ -12,9 +12,10 @@ function Proyecto( {id} ) {
     const { t } = useTranslation();
 
     return(
-        <section id={id} className='ancho proyecto'>
+        <section id={id} className='proyecto-seccion ancho'>
             <h1 className='etiqueta-abrir'>{t("header.proyecto")}</h1>
-            <p className='proyecto-parrafo-frase'>{t("proyecto.frase")}</p>
+            <p className='proyecto-frase'>{t("proyecto.frase")}</p>
+            
             <div className="proyecto-carta">
                 <div className="carta">
                     <img className='carta-imagen' src={coffee} alt="coffee" />
@@ -28,6 +29,7 @@ function Proyecto( {id} ) {
                         </div>
                     </div>
                 </div>
+
                 <div className="carta">
                     <img className='carta-imagen' src={commerce} alt="ecommerce" />
                     <div className='carta-contenido'>
@@ -39,6 +41,7 @@ function Proyecto( {id} ) {
                         </div>
                     </div>
                 </div>
+
                 <div className="carta">
                     <img className='carta-imagen' src={commerceMern} alt="ecommerceMern" />
                     <div className="carta-contenido">
@@ -53,6 +56,7 @@ function Proyecto( {id} ) {
                         </div>
                     </div>
                 </div>
+
                 <div className="carta">
                     <img className='carta-imagen' src={peliculas} alt="peliculas" />
                     <div className="carta-contenido">
@@ -67,6 +71,7 @@ function Proyecto( {id} ) {
                         </div>
                     </div>
                 </div>
+
                 <div className="carta">
                    <img className='carta-imagen' src={markdown} alt="markdown" />
                     <div className="carta-contenido">
@@ -78,6 +83,7 @@ function Proyecto( {id} ) {
                         </div>
                     </div>
                 </div>
+                
                 <div className="carta">
                     <img className='carta-imagen' src={clock} alt="clock" />
                     <div className="carta-contenido">
@@ -90,7 +96,8 @@ function Proyecto( {id} ) {
                     </div>
                 </div>               
             </div>
-            <p><a className='codepen-enlace' href="https://codepen.io/Codefaa/pens/public" target='_blank' rel="noopener noreferrer">{t("proyecto.vermas")}</a></p>
+            
+            <a className='codepen-enlace' href="https://codepen.io/Codefaa/pens/public" target='_blank' rel="noopener noreferrer">{t("proyecto.vermas")}</a>
             <p className='etiqueta-cerrar'>{t("header.proyecto")}</p>
         </section>
     )

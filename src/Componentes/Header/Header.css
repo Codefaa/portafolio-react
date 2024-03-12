@@ -1,4 +1,4 @@
-.header {
+.header-seccion {
     background-color: var(--color-secundario);
     border-bottom: 1px solid var(--color-cuarto);
     display: flex;
@@ -15,13 +15,10 @@
     gap: 30px;
 }
 
-.header-nav a {
+.header-etiqueta {
     text-decoration: none;
     font-size: 1.4rem;
     color: var(--color-cuarto);
-}
-
-.header-etiqueta {
     cursor: pointer;
 }
 
@@ -58,7 +55,9 @@
 
 .bi-translate,
 .bi-moon-stars-fill,
-.bi-sun-fill {
+.bi-sun-fill,
+.bi-list,
+.bi-x-circle  {
     color: var(--color-cuarto);
     font-size: 1.2rem;
     cursor: pointer;
@@ -66,26 +65,29 @@
 
 .bi-translate:hover, 
 .bi-moon-stars-fill:hover,
-.bi-sun-fill:hover {
+.bi-sun-fill:hover,
+.bi-list:hover,
+.bi-x-circle:hover {
     color: var(--color-terciario);
 }
 
 
-@media screen and (width >= 950px) {
-
+@media (min-width:1024px) {
+    
     .header-menu {
         display: none;
     }
 }
 
-@media screen and (width <= 950px) {
+@media (max-width: 1023px)  {
 
     .header-nav {
         display: none;
     }
 
-    .header-menu {
-        z-index: 100;
+    .header-seccion {
+        background-color: var(--color-quinto);
+        border-bottom: 1px solid var(--color-cuarto);
     }
 
     .header-nav.active {        
@@ -101,17 +103,13 @@
         height: 100vh;
         border-right: 1px solid var(--color-cuarto);
         background-color: var(--color-quinto);
-
+    }
+    
+    .header-menu {
+        z-index: 100;
     }
 
-    .header {
-
-        background-color: var(--color-quinto);
-        border-bottom: 1px solid var(--color-cuarto);
-    }
-
-
-    .header-nav a {
+    .header-etiqueta {
         display: block;
     }
 }

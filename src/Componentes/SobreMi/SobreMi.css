@@ -1,4 +1,4 @@
-.sobre-mi {
+.sobremi-seccion {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -6,12 +6,11 @@
     color: var(--color-cuarto);
 }
 
-.sobre-mi h1 {
-    font-size: 3.5rem;
+.sobremi-parrafo {
+    font-size: 1.4rem;
 }
 
-
-.habilidades {
+.sobremi-habilidades {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -39,9 +38,9 @@
 }
 
 
-@media screen and (width <= 600px) {
+@media (max-width: 767px) {
   
-    .habilidades {
+    .sobremi-habilidades {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(5, 1fr);
     }

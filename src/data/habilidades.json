@@ -1,0 +1,38 @@
+[
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png",
+        "titulo": "HTML"
+    },
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png",
+        "titulo": "CSS"
+    },
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png",
+        "titulo": "JavaScript"
+    },
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png",
+        "titulo": "React.js"
+    },
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_node_icon_130301.png",
+        "titulo": "Node.js"
+    },
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/2415/PNG/512/express_original_wordmark_logo_icon_146528.png",
+        "titulo": "Express"
+    },
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/3389/PNG/512/c_sharp_icon_213045.png",
+        "titulo": "C#"
+    },
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_mongo_icon_130383.png",
+        "titulo": "MongoDB"
+    },
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_sql_icon_130152.png",
+        "titulo": "SQL Server"
+    }
+]

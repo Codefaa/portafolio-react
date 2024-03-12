@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './Header.css';
 import { useTranslation } from 'react-i18next';
-import Menu from '../Menu/Menu';
 import { Link as ScrollLink } from 'react-scroll';
 
 function Header() {
@@ -39,15 +38,14 @@ function Header() {
         setColorQuinto(nuevoColorQuinto);
 
         setIconoClass(iconoClass === 'bi bi-moon-stars-fill' ? 'bi bi-sun-fill' : 'bi bi-moon-stars-fill')
-        
     }
 
     function handleAbrirMenu() {
         setAbrirMenu(!abrirMenu);
-    }
+    } 
 
     return(
-        <header className='header'>
+        <header className='header-seccion'>
             <nav className={`header-nav ${abrirMenu ? 'active' : ''}`}>
                 <ScrollLink to="perfil" smooth={true} duration={500} onClick={handleAbrirMenu} className='header-etiqueta'> {t('header.inicio')} </ScrollLink>
                 <ScrollLink to="sobremi" smooth={true} duration={500} onClick={handleAbrirMenu} className='header-etiqueta'> {t('header.sobremi')} </ScrollLink>
@@ -55,7 +53,7 @@ function Header() {
                 <ScrollLink to="contacto" smooth={true} duration={500} onClick={handleAbrirMenu} className='header-etiqueta'> {t('header.contacto')} </ScrollLink>
             </nav>
             <div className='header-menu'>
-                <Menu abrirMenu={abrirMenu} handleAbrirMenu={handleAbrirMenu}/>
+                <i onClick={handleAbrirMenu} className={`bi bi-list ${abrirMenu ? 'bi bi-x-circle-fill' : 'bi bi-list'}`}></i>
             </div>
             <div className='header-idiomafondo'>
                 <i onClick={cambiarLenguaje} className="bi bi-translate"></i>

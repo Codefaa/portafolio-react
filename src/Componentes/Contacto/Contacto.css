@@ -1,4 +1,4 @@
-.contacto {
+.contacto-form {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -7,22 +7,19 @@
     margin-top: 100px;
 }
 
-h1 {
-    font-size: 3.5rem;
-}
-
-p{
+.contacto-parrafo{
     font-size: 1.4rem;
 }
 
-.email {
+.contacto-email {
     color: var(--color-terciario);
 }
 
 
-@media screen and (width <= 600px) {
+@media (max-width: 767px) {
     
     .contacto-parrafo {
         font-size: 1.2rem;
     }
+    
 }

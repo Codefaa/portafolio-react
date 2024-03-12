@@ -1,15 +1,10 @@
-.fin {
+.footer-seccion {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 50px;
-}
-
-.contacto-enlaces {
-    display: flex;
-    gap: 30px;
 }
 
 .bi-linkedin,
@@ -20,13 +15,25 @@
     cursor: pointer;
 }
 
-.link {
+.bi-linkedin:hover,
+.bi-github:hover,
+.bi-file-person-fill:hover, 
+.bi-code-slash:hover {
+    color: var(--color-terciario);
+}
+
+.footer-enlaces {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-link {
     position: relative;
     text-decoration: none;
     color: var(--color-cuarto);
 }
 
-.link::before {
+.footer-link::before {
     content: attr(data-texto);
     position: absolute;
     bottom: 100%;
@@ -45,19 +52,12 @@
     transition: .15s;
 }
 
-.link:hover::before {
+.footer-link:hover::before {
     transform: scale(1);
     color: var(--color-cuarto);
 }
 
-.bi-linkedin:hover,
-.bi-github:hover,
-.bi-file-person-fill:hover, 
-.bi-code-slash:hover {
-    color: var(--color-terciario);
-}
-
-.fin p {
+.footer-nombre {
     color: gray;
     font-size: .8rem;
 }

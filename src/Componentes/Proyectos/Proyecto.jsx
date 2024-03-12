@@ -20,7 +20,7 @@ function Proyecto( {id} ) {
                 <div className="carta">
                     <img className='carta-imagen' src={coffee} alt="coffee" />
                     <div className='carta-contenido'>
-                        <a className='carta-enlace' href="codefaa.github.io/coffee-page/" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
+                        <a className='carta-enlace' href="https://codefaa.github.io/coffee-page/" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
                         <h3 className='carta-titulo'>{t("proyecto.coffee")}</h3>
                         <h5 className='carta-parrafo'>{t("proyecto.descripcioncoffe")}</h5>
                         <div className='carta-tecnologias'>

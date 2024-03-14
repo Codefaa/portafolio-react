@@ -13,8 +13,8 @@
     },
 
     "sobremi": {
-        "sobremiparrafo1": "Estudiante de Ingeniería en Sistemas con título intermedio en Analista en Sistemas.También estoy haciendo cursos autodidactas para convertirme en desarrollador web.",
-        "sobremiparrafo2": "Mi viaje en la informática comenzó en la universidad, donde exploré C, C#, y Python, junto con SQL Server para proyectos de base de datos. En FreeCodeCamp, obtuve certificados en desarrollo web, abarcando HTML, CSS, JavaScript, React y mas..."
+        "sobremiparrafo1": "Soy estudiante de Ingeniería en Sistemas con un título intermedio en Análisis de Sistemas. Actualmente, estoy realizando cursos autodidactas para convertirme en un desarrollador web Fullstack.",
+        "sobremiparrafo2": "Mi pasión por la informática comenzó en la universidad, donde exploré lenguajes como C, C#, y Python, así como también trabajé con SQL Server en proyectos de bases de datos. En FreeCodeCamp, obtuve certificados en desarrollo web, abarcando temas como HTML, CSS, JavaScript, y React. Además, tengo experiencia en el manejo de tecnologías como Node.js, Express, y MongoDB."
     },
 
     "proyecto": {
@@ -36,6 +36,6 @@
 
     "contacto": {
         "contactoparrafo1": "Mi bandeja de entrada está siempre abierta para consultas, proyectos o si simplemente querés pasar a saludar. ¡Te responderé lo antes posible!",
-        "contactoparrafo2": "Podes escribirme en: "
+        "contactoparrafo2": "Podés escribirme en: "
     }
 }

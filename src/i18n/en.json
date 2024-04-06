@@ -19,8 +19,8 @@
 
     "proyecto": {
         "frase": "If you can imagine it, you can program it.",
-        "coffee": "Coffee",
-        "descripcioncoffe": "Food menu",
+        "notasya": "Notas ya",
+        "descripcionnotasya": "Escribe todo lo piensas en notas ya.",
         "ecommerce": "E-commerce",
         "descripcionecommerce": "Selling products using the Fake Store API",
         "ecommerceMern": "E-commerce-mern",

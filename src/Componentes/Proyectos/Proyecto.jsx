@@ -3,7 +3,7 @@ import coffee from '../../Imagenes/coffee.png'
 import commerce  from '../../Imagenes/e-commerce.png'
 import commerceMern from '../../Imagenes/e-commerce-mern.png'
 import peliculas from '../../Imagenes/peliculas-app.png'
-import markdown from '../../Imagenes/markdown.png'
+import notasya from '../../Imagenes/notasya.png'
 import clock from '../../Imagenes/clock.png'
 import { useTranslation } from 'react-i18next'
 
@@ -17,30 +17,6 @@ function Proyecto( {id} ) {
             <p className='proyecto-frase'>{t("proyecto.frase")}</p>
             
             <div className="proyecto-carta">
-                <div className="carta">
-                    <img className='carta-imagen' src={coffee} alt="coffee" />
-                    <div className='carta-contenido'>
-                        <a className='carta-enlace' href="https://codefaa.github.io/coffee-page/" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
-                        <h3 className='carta-titulo'>{t("proyecto.coffee")}</h3>
-                        <h5 className='carta-parrafo'>{t("proyecto.descripcioncoffe")}</h5>
-                        <div className='carta-tecnologias'>
-                            <button className="carta-boton">HTML</button>
-                            <button className="carta-boton">CSS</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="carta">
-                    <img className='carta-imagen' src={commerce} alt="ecommerce" />
-                    <div className='carta-contenido'>
-                        <a className='carta-enlace' href="https://codefaa.github.io/e-commerce-apifakestore/" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
-                        <h3 className='carta-titulo'>{t("proyecto.ecommerce")}</h3>
-                        <h5 className='carta-parrafo'>{t("proyecto.descripcionecommerce")}</h5>
-                        <div className='carta-tecnologias'>
-                            <button className="carta-boton">React</button>
-                        </div>
-                    </div>
-                </div>
 
                 <div className="carta">
                     <img className='carta-imagen' src={commerceMern} alt="ecommerceMern" />
@@ -64,7 +40,7 @@ function Proyecto( {id} ) {
                         <h3 className='carta-titulo'>{t("proyecto.peliculas")}</h3>
                         <h5 className='carta-parrafo'>{t("proyecto.descripcionpeliculas")}</h5>
                         <div className='carta-tecnologias'>
-                        <button className="carta-boton">MongoDB</button>
+                            <button className="carta-boton">MongoDB</button>
                             <button className="carta-boton">Express</button>
                             <button className="carta-boton">React</button>
                             <button className="carta-boton">NodeJS</button>
@@ -73,13 +49,42 @@ function Proyecto( {id} ) {
                 </div>
 
                 <div className="carta">
-                   <img className='carta-imagen' src={markdown} alt="markdown" />
+                   <img className='carta-imagen' src={notasya} alt="notasya" />
                     <div className="carta-contenido">
-                        <a className='carta-enlace' href="https://codepen.io/Codefaa/pen/gOExOXa" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
-                        <h3 className='carta-titulo'>{t("proyecto.markdown")}</h3>
-                        <h5 className='carta-parrafo'>{t("proyecto.descripcionmarkdown")}</h5>
+                        <a className='carta-enlace' href="https://notas-frontend.onrender.com" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
+                        <h3 className='carta-titulo'>{t("proyecto.notasya")}</h3>
+                        <h5 className='carta-parrafo'>{t("proyecto.descripcionnotasya")}</h5>
+                        <div className='carta-tecnologias'>
+                            <button className="carta-boton">MongoDB</button>
+                            <button className="carta-boton">Express</button>
+                            <button className="carta-boton">React</button>
+                            <button className="carta-boton">NodeJS</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="carta">
+                    <img className='carta-imagen' src={commerce} alt="ecommerce" />
+                    <div className='carta-contenido'>
+                        <a className='carta-enlace' href="https://codefaa.github.io/e-commerce-apifakestore/" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
+                        <h3 className='carta-titulo'>{t("proyecto.ecommerce")}</h3>
+                        <h5 className='carta-parrafo'>{t("proyecto.descripcionecommerce")}</h5>
                         <div className='carta-tecnologias'>
                             <button className="carta-boton">React</button>
+                            <button className="carta-boton">API Fake Store</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="carta">
+                    <img className='carta-imagen' src={coffee} alt="coffee" />
+                    <div className='carta-contenido'>
+                        <a className='carta-enlace' href="https://codefaa.github.io/coffee-page/" target='_blank' rel="noopener noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
+                        <h3 className='carta-titulo'>{t("proyecto.coffee")}</h3>
+                        <h5 className='carta-parrafo'>{t("proyecto.descripcioncoffe")}</h5>
+                        <div className='carta-tecnologias'>
+                            <button className="carta-boton">HTML</button>
+                            <button className="carta-boton">CSS</button>
                         </div>
                     </div>
                 </div>

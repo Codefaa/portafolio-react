@@ -13,13 +13,13 @@
 
 .proyecto-carta {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
 .carta {
     position: relative;
+    height: 270px;   
 }
 
 .carta-imagen {
@@ -29,8 +29,9 @@
 }
 
 .carta-enlace {
-    margin: 2.7rem;
-    margin-left: 15rem;
+    position: absolute;
+    top: 20px;
+    right: 10px;
 }
 
 .bi-box-arrow-up-right {    
@@ -91,10 +92,6 @@
         grid-template-rows: repeat(3, 1fr);
     }
 
-    .carta-enlace {
-        margin: 4rem;
-        margin-left: 16rem;
-    }
 }
 
 @media (max-width: 767px)  {
@@ -102,11 +99,6 @@
     .proyecto-carta {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
-    }
-
-    .carta-enlace {
-        margin: 1rem;
-        margin-left: 13rem;
     }
 
     .proyecto-frase {

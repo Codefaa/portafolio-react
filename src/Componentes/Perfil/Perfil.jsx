@@ -20,7 +20,7 @@ function Perfil( {id} ) {
                 <nav className='footer-enlaces'>
                     <a className='footer-link' href="https://www.linkedin.com/in/facundo-garcia-312b73297/" target='_blank' rel="noopener noreferrer" data-texto="LinkedIn"><i className="bi bi-linkedin"></i></a>
                     <a className='footer-link' href="https://github.com/Codefaa" target='_blank' rel="noopener noreferrer" data-texto="GitHub"><i className="bi bi-github"></i></a>
-                    <a className='footer-link' href="https://drive.google.com/file/d/1CyvacuplrcDdHsjXRy0ItnbJ5hkD-nQk/view?usp=sharing" target='_blank' rel="noopener noreferrer" data-texto="CV"><i className="bi bi-file-person-fill"></i></a>
+                    <a className='footer-link' href="https://drive.google.com/file/d/1nI1tmJXJ36ExjvECIhc0hl-0yDEa44ao/view?usp=sharing" target='_blank' rel="noopener noreferrer" data-texto="CV"><i className="bi bi-file-person-fill"></i></a>
                 </nav>
             </div>
 

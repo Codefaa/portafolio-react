@@ -9,7 +9,7 @@ function Header() {
     const [colorSecundario, setColorSecundario] = useState();
     const [colorCuarto, setColorCuarto] = useState();
     const [colorQuinto, setColorQuinto] = useState();
-    const [iconoClass, setIconoClass] = useState('bi bi-moon-stars-fill');
+    const [iconoClass, setIconoClass] = useState('bi bi-sun-fill');
     const [abrirMenu, setAbrirMenu] = useState(false);
     const {t, i18n} = useTranslation();
 

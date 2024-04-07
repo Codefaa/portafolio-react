@@ -13,22 +13,22 @@
     },
 
     "sobremi": {
-        "sobremiparrafo1": "I am a Systems Engineering student with an intermediate degree in Systems Analysis. Currently, I am taking self-taught courses to become a Fullstack web developer.",
-        "sobremiparrafo2": "My passion for computing began in college, where I explored languages ​​such as C, C#, and Python, as well as working with SQL Server on database projects. At FreeCodeCamp, I earned certificates in web development, covering topics such as HTML, CSS, JavaScript, and React. Additionally, I have experience in using technologies such as Node.js, Express, and MongoDB."
+        "sobremiparrafo1": "I am a Systems Engineering student with an intermediate degree in Systems Analysis. Additionally, I am taking self-taught courses to become a Fullstack web developer.",
+        "sobremiparrafo2": "My passion for computing began in college, where I explored languages ​​such as C, C#, and Python, as well as working with SQL Server on database projects. At FreeCodeCamp, I earned certificates in web development, covering topics such as HTML, CSS, JavaScript, and React. Additionally, I have experience in using technologies such as Node.js, Express, MongoDB and more..."
     },
 
     "proyecto": {
-        "frase": "If you can imagine it, you can program it.",
+        "frase": "The MERN applications were uploaded to a free host at render.com. Please note that when accessing these applications, you may need to wait a few minutes for the MongoDB data to fully load.\n\nApplications that are frontend only have been uploaded to the GitHub Pages host.\n \nAll web pages developed, including this web portfolio, are responsive.",
         "notasya": "Notas ya",
-        "descripcionnotasya": "Escribe todo lo piensas en notas ya.",
+        "descripcionnotasya": "Platform to manage online notes with user registration. It allows you to create, edit and delete notes quickly and safely.",
         "ecommerce": "E-commerce",
-        "descripcionecommerce": "Selling products using the Fake Store API",
-        "ecommerceMern": "E-commerce-mern",
-        "descripcionecommerceMern": "Artifact manager with registration, cancellation and modification functionality.",
-        "peliculas": "Peliculas-mern",
-        "descripcionpeliculas": "Movie and series pages.",
-        "markdown": "Markdown",
-        "descripcionmarkdown": "Text editor with Markdown format.",
+        "descripcionecommerce": "Selling products using the Fake Store API. Includes a shopping cart.",
+        "ecommerceMern": "E-commerce Artefactos",
+        "descripcionecommerceMern": "Direct access as an administrator to manage products with the ability to add, delete and modify them. Includes a shopping cart.",
+        "peliculas": "Tráiler Cinematográfico",
+        "descripcionpeliculas": "Platform specialized in viewing movie and series trailers.",
+        "coffee": "Menu Coffee",
+        "descripcioncoffe": "Static website that shows the menu of a cafeteria.",
         "clock": "Clock",
         "descripcionclock": "Stopwatch functionality with pomodoro technique.",
         "vermas": "See more..."

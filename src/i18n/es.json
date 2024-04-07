@@ -13,12 +13,12 @@
     },
 
     "sobremi": {
-        "sobremiparrafo1": "Soy estudiante de Ingeniería en Sistemas con un título intermedio en Análisis de Sistemas. Actualmente, estoy realizando cursos autodidactas para convertirme en un desarrollador web Fullstack.",
-        "sobremiparrafo2": "Mi pasión por la informática comenzó en la universidad, donde exploré lenguajes como C, C#, y Python, así como también trabajé con SQL Server en proyectos de bases de datos. En FreeCodeCamp, obtuve certificados en desarrollo web, abarcando temas como HTML, CSS, JavaScript, y React. Además, tengo experiencia en el manejo de tecnologías como Node.js, Express, y MongoDB."
+        "sobremiparrafo1": "Soy estudiante de Ingeniería en Sistemas con un título intermedio en Análisis de Sistemas. Ademas, estoy realizando cursos autodidactas para convertirme en un desarrollador web Fullstack.",
+        "sobremiparrafo2": "Mi pasión por la informática comenzó en la universidad, donde exploré lenguajes como C, C#, y Python, así como también trabajé con SQL Server en proyectos de bases de datos. En FreeCodeCamp, obtuve certificados en desarrollo web, abarcando temas como HTML, CSS, JavaScript, y React. Además, tengo experiencia en el manejo de tecnologías como Node.js, Express, MongoDB y mas..."
     },
 
     "proyecto": {
-        "frase": "Las aplicaciones MERN fueron subidas a un host gratuito en render.com. Por favor, ten en cuenta que al acceder a estas aplicaciones, puede que necesites esperar unos minutos para que los datos de MongoDB se carguen completamente. Las aplicaciones que son exclusivamente de frontend han sido subidas al host de GitHub Pages.",
+        "frase": "Las aplicaciones MERN fueron subidas a un host gratuito en render.com. Por favor, ten en cuenta que al acceder a estas aplicaciones, puede que necesites esperar unos minutos para que los datos de MongoDB se carguen completamente.\n\nLas aplicaciones que son exclusivamente de frontend han sido subidas al host de GitHub Pages.\n\nTodas las páginas web desarrolladas, incluyendo este portafolio web, son responsive.",
         "notasya": "Notas ya",
         "descripcionnotasya": "Plataforma para gestionar notas online con registro de usuarios. Permite crear, editar y eliminar notas de forma ágil y segura.",
         "ecommerce": "E-commerce",
@@ -26,7 +26,7 @@
         "ecommerceMern": "E-commerce Artefactos",
         "descripcionecommerceMern": "Acceso directo como administrador para gestionar productos con capacidad de alta, baja y modificación. Incluye un carrito de compras.",
         "peliculas": "Tráiler Cinematográfico",
-        "descripcionpeliculas": " Plataforma especializada en la visualización de trailers de películas y series.",
+        "descripcionpeliculas": "Plataforma especializada en la visualización de trailers de películas y series.",
         "coffee": "Menu Coffee",
         "descripcioncoffe": "Sitio web estatico que muestra la carta de menú de una cafetería.",
         "clock": "Clock",

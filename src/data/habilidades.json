@@ -16,6 +16,14 @@
         "titulo": "React.js"
     },
     {
+        "imagen": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_typescript_official_icon_130107.png",
+        "titulo": "Typescript"
+    },
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png",
+        "titulo": "Tailwind CSS"
+    },
+    {
         "imagen": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_node_icon_130301.png",
         "titulo": "Node.js"
     },
@@ -26,6 +34,10 @@
     {
         "imagen": "https://cdn.icon-icons.com/icons2/3389/PNG/512/c_sharp_icon_213045.png",
         "titulo": "C#"
+    },
+    {
+        "imagen": "https://cdn.icon-icons.com/icons2/2415/PNG/512/dot_net_original_wordmark_logo_icon_146547.png",
+        "titulo": "ASP.NET"
     },
     {
         "imagen": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_mongo_icon_130383.png",

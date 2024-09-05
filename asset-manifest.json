@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio-react/static/css/main.19995869.css",
-    "main.js": "/portafolio-react/static/js/main.1f313fd1.js",
+    "main.css": "/portafolio-react/static/css/main.b8a73071.css",
+    "main.js": "/portafolio-react/static/js/main.a0bf99cc.js",
     "static/media/peliculas-app.png": "/portafolio-react/static/media/peliculas-app.5850c8b26e97687ba2ba.png",
     "static/media/e-commerce.png": "/portafolio-react/static/media/e-commerce.4e21fbddd06bbeec5e6d.png",
     "static/media/e-commerce-mern.png": "/portafolio-react/static/media/e-commerce-mern.4ad94f4098a7e31ef4b0.png",
@@ -9,11 +9,11 @@
     "static/media/perfil.webp": "/portafolio-react/static/media/perfil.450e94315954273ba2f6.webp",
     "static/media/notasya.png": "/portafolio-react/static/media/notasya.c89b001db901540ffcf9.png",
     "index.html": "/portafolio-react/index.html",
-    "main.19995869.css.map": "/portafolio-react/static/css/main.19995869.css.map",
-    "main.1f313fd1.js.map": "/portafolio-react/static/js/main.1f313fd1.js.map"
+    "main.b8a73071.css.map": "/portafolio-react/static/css/main.b8a73071.css.map",
+    "main.a0bf99cc.js.map": "/portafolio-react/static/js/main.a0bf99cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.19995869.css",
-    "static/js/main.1f313fd1.js"
+    "static/css/main.b8a73071.css",
+    "static/js/main.a0bf99cc.js"
   ]
 }

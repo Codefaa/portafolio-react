@@ -8,17 +8,17 @@
 
     "perfil": {
         "nombre": "Soy Facundo Garcia",
-        "carrera": "Ingeniero en Sistemas",
+        "carrera": "Estudiante de Ingenieria en Sistemas",
         "descripcion": "Nacido en 🇦🇷 Argentina y viviendo en Buenos Aires, en busca de nuevos desafíos y experiencias."
     },
 
     "sobremi": {
-        "sobremiparrafo1": "Soy estudiante de Ingeniería en Sistemas con un título intermedio en Análisis de Sistemas. Ademas, estoy realizando cursos autodidactas para convertirme en un desarrollador web Fullstack.",
+        "sobremiparrafo1": "Soy estudiante avanzado de Ingeniería en Sistemas. Ademas, estoy realizando cursos autodidactas para convertirme en un desarrollador web Fullstack.",
         "sobremiparrafo2": "Mi pasión por la informática comenzó en la universidad, donde exploré lenguajes como C, C#, y Python, así como también trabajé con SQL Server en proyectos de bases de datos. En FreeCodeCamp, obtuve certificados en desarrollo web, abarcando temas como HTML, CSS, JavaScript, y React. Además, tengo experiencia en el manejo de tecnologías como Node.js, Express, MongoDB y mas..."
     },
 
     "proyecto": {
-        "frase": "Las aplicaciones MERN fueron subidas a un host gratuito en render.com. Por favor, ten en cuenta que al acceder a estas aplicaciones, puede que necesites esperar unos minutos para que los datos de MongoDB se carguen completamente.\n\nLas aplicaciones que son exclusivamente de frontend han sido subidas al host de GitHub Pages.\n\nTodas las páginas web desarrolladas, incluyendo este portafolio web, son responsive.",
+        "frase": "Las aplicaciones MERN fueron subidas a un host gratuito en render.com.\n\nLas aplicaciones que son exclusivamente de frontend han sido subidas al host de GitHub Pages.\n\nAdemas todas las páginas web desarrolladas, incluyendo este portafolio web, son responsive.",
         "notasya": "Notas ya",
         "descripcionnotasya": "Plataforma para gestionar notas online con registro de usuarios. Permite crear, editar y eliminar notas de forma ágil y segura.",
         "ecommerce": "E-commerce",
@@ -35,7 +35,7 @@
     },
 
     "contacto": {
-        "contactoparrafo1": "Mi bandeja de entrada está siempre abierta para consultas, proyectos o si simplemente querés pasar a saludar. ¡Te responderé lo antes posible!",
+        "contactoparrafo1": "Mi bandeja de entrada está siempre disponible ¡Te responderé lo antes posible!",
         "contactoparrafo2": "Podés escribirme en: "
     }
 }

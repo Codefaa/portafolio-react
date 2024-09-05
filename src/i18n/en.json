@@ -8,17 +8,17 @@
 
     "perfil": {
         "nombre": "I'm Facundo Garcia",
-        "carrera": "Systems engineer",
+        "carrera": "Systems Engineering Student",
         "descripcion": "Born in 🇦🇷 Argentina and living in Buenos Aires, looking for new challenges and experiences."
     },
 
     "sobremi": {
-        "sobremiparrafo1": "I am a Systems Engineering student with an intermediate degree in Systems Analysis. Additionally, I am taking self-taught courses to become a Fullstack web developer.",
+        "sobremiparrafo1": "I am an advanced student of Systems Engineering. Additionally, I am taking self-taught courses to become a Fullstack web developer.",
         "sobremiparrafo2": "My passion for computing began in college, where I explored languages ​​such as C, C#, and Python, as well as working with SQL Server on database projects. At FreeCodeCamp, I earned certificates in web development, covering topics such as HTML, CSS, JavaScript, and React. Additionally, I have experience in using technologies such as Node.js, Express, MongoDB and more..."
     },
 
     "proyecto": {
-        "frase": "The MERN applications were uploaded to a free host at render.com. Please note that when accessing these applications, you may need to wait a few minutes for the MongoDB data to fully load.\n\nApplications that are frontend only have been uploaded to the GitHub Pages host.\n \nAll web pages developed, including this web portfolio, are responsive.",
+        "frase": "The MERN applications were uploaded to a free host at render.com.\n\nApplications that are frontend only have been uploaded to the GitHub Pages host.\n \nIn addition, all web pages developed, including this web portfolio, are responsive.",
         "notasya": "Notas ya",
         "descripcionnotasya": "Platform to manage online notes with user registration. It allows you to create, edit and delete notes quickly and safely.",
         "ecommerce": "E-commerce",
@@ -35,7 +35,7 @@
     },
 
     "contacto": {
-        "contactoparrafo1": "My inbox is always open for questions, projects, or if you just want to stop by and say hello. I will answer you as soon as possible!",
+        "contactoparrafo1": "My inbox is always available. I will reply to you as soon as possible!",
         "contactoparrafo2": "You can write to me at: "
     }
 }
